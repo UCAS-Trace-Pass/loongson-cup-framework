@@ -176,16 +176,6 @@ module cache_wrapper(
             else
                     mem_awvalid <= mem_awvalid;
     end
-     
-   /* always @(posedge M_AXI_ACLK)
-    begin
-            if(~M_AXI_ARESETN)
-                    inst_slot <= 'd0;
-            else if(wait_mem_state && pc_rvalid)
-                    inst_slot <= pc_rdata;
-            else
-                    inst_slot <= inst_slot;
-    end*/
 
     always @(posedge M_AXI_ACLK)
     begin

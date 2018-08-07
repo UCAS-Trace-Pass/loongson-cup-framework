@@ -1,7 +1,7 @@
 // Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
-// Date        : Sat Jul 21 21:37:04 2018
+// Date        : Sat Jul 28 18:32:13 2018
 // Host        : MSI running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim {D:/Trace
 //               Pass/nscscc2018_release_v0.02/func_test_v0.01/soc_axi_func/rtl/xilinx_ip/clk_pll/clk_pll_sim_netlist.v}
@@ -84,7 +84,7 @@ module clk_pll_clk_pll_clk_wiz
     .CLKFBOUT_PHASE(0.000000),
     .CLKIN1_PERIOD(10.000000),
     .CLKIN2_PERIOD(0.000000),
-    .CLKOUT0_DIVIDE(18),
+    .CLKOUT0_DIVIDE(9),
     .CLKOUT0_DUTY_CYCLE(0.500000),
     .CLKOUT0_PHASE(0.000000),
     .CLKOUT1_DIVIDE(9),
